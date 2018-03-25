@@ -179,8 +179,10 @@ li{
 .portDef{
 	padding-bottom: 10px;
 	height: auto;
+}
 
-	
+.portDef:hover{
+	opacity: 0.5;
 }
 
 #portfolioMain{
