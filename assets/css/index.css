@@ -7,7 +7,7 @@ body {
 
 .navbar {
   color: white;
-  font-family: "Cinzel", serif;
+  font-family: 'Cinzel', serif;
   box-shadow: 2px 2px #a6a6a6;
   opacity: 0.8;
 }
@@ -23,7 +23,8 @@ body {
   font-size: 25px;
 }
 
-h1 {
+h1,
+h2 {
   font-family: serif;
   text-transform: uppercase;
   text-align: center;
@@ -36,7 +37,7 @@ h1 {
 }
 
 .home-inner {
-  padding-top: 105px;
+  padding-top: 80px;
   text-align: center;
   padding-bottom: 50px;
 }
@@ -49,7 +50,6 @@ h1 {
 
 #home-text {
   animation: moveLeft 2s;
-  font-size: 50px;
 }
 
 #logo-container {
@@ -63,39 +63,13 @@ h1 {
   background: url(https://images.pexels.com/photos/705778/pexels-photo-705778.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
   animation: fadeOut 15s infinite;
 }
-/*About*/
-#about {
-  text-align: center;
-  background-color: rgba(115, 114, 115, 0.1);
-  font-size: 20px;
+
+#services {
+  min-height: 300px;
 }
 
-.about-content {
-  text-align: center;
-}
-
-#about a .fa {
-  color: #737273;
-}
-
-#skills {
-  padding-top: 10px;
-  text-align: center;
-  margin: auto;
-  font-size: 25px;
-}
-
-#skills ul {
-  padding-right: 40px;
-}
-
-li {
-  list-style-type: none;
-}
-
-#skills2 {
-  font-size: 30px;
-  padding-top: 20px;
+.services-container {
+  min-height: 300px;
 }
 
 /*Portfolio*/
